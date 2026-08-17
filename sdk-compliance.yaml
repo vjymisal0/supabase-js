@@ -307,6 +307,7 @@ features:
     status: implemented
     symbols:
       - GoTrueClient.verifyOtp
+  auth.sign_in.reset_password: not_implemented
 
   # database
   database.configuration.auto_retry:
@@ -598,6 +599,8 @@ features:
       - default.from
   storage.analytics.update_namespace_properties:
     status: not_implemented
+  storage.analytics.iceberg_namespace: not_implemented
+  storage.analytics.iceberg_table: not_implemented
   storage.errors.error_codes:
     status: implemented
     symbols:
@@ -731,6 +734,7 @@ features:
       - default.createSignedUrl
       - default.createSignedUrls
       - default.getPublicUrl
+  storage.file_buckets.list_files_paginated: not_implemented
   storage.vector_buckets.access_vector_index:
     status: implemented
     symbols:
@@ -807,6 +811,7 @@ features:
     status: implemented
     symbols:
       - RealtimeChannel.unsubscribe
+  realtime.channel.send: not_implemented
   realtime.client.channel:
     status: implemented
     symbols:
